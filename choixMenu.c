@@ -19,6 +19,8 @@ int main(int argc, char *argv[])
 {
 	case 1:
 		printf("ça va sentir booon le fromage");
+		printf("Vous souhaitez autre chose avec votre Royal Cheese?");
+		scanf("%d", &choixMenu);
 		break;
 	case 2:
 		printf("La version deluxe d'une marque deluxe");
